@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4066E06D1B6480D400C0D434 /* SlackApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4066E06C1B6480D400C0D434 /* SlackApi.swift */; };
+		4066E06F1B64811700C0D434 /* SlackApiUrl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4066E06E1B64811700C0D434 /* SlackApiUrl.plist */; };
 		409008481B63F68800CF8C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409008471B63F68800CF8C0A /* AppDelegate.swift */; };
-		4090084A1B63F68800CF8C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409008491B63F68800CF8C0A /* ViewController.swift */; };
-		4090084D1B63F68800CF8C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4090084B1B63F68800CF8C0A /* Main.storyboard */; };
 		4090084F1B63F68800CF8C0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4090084E1B63F68800CF8C0A /* Images.xcassets */; };
 		409008521B63F68800CF8C0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 409008501B63F68800CF8C0A /* LaunchScreen.xib */; };
 		4090085E1B63F68900CF8C0A /* SlackRackSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4090085D1B63F68900CF8C0A /* SlackRackSwiftTests.swift */; };
+		4090086E1B64022F00CF8C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4090086D1B64022F00CF8C0A /* Main.storyboard */; };
+		409008711B6408EA00CF8C0A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409008701B6408EA00CF8C0A /* MainTabBarController.swift */; };
+		409008731B64090E00CF8C0A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409008721B64090E00CF8C0A /* MainNavigationController.swift */; };
+		40E20A0F1B67D3D00089D8AB /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A0E1B67D3D00089D8AB /* Log.swift */; };
+		40E20A151B67D6CF0089D8AB /* SlackContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A121B67D6CF0089D8AB /* SlackContentViewController.swift */; };
+		40E20A161B67D6CF0089D8AB /* SlackContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A141B67D6CF0089D8AB /* SlackContentTableViewController.swift */; };
+		40E20A1A1B67D7380089D8AB /* SlackContent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E20A191B67D7380089D8AB /* SlackContent.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4066E0681B647FBF00C0D434 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4066E06C1B6480D400C0D434 /* SlackApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackApi.swift; sourceTree = "<group>"; };
+		4066E06E1B64811700C0D434 /* SlackApiUrl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SlackApiUrl.plist; sourceTree = "<group>"; };
 		409008421B63F68800CF8C0A /* SlackRackSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackRackSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		409008461B63F68800CF8C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		409008471B63F68800CF8C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		409008491B63F68800CF8C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4090084C1B63F68800CF8C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4090084E1B63F68800CF8C0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		409008511B63F68800CF8C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		409008571B63F68800CF8C0A /* SlackRackSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlackRackSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4090085C1B63F68800CF8C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4090085D1B63F68900CF8C0A /* SlackRackSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackRackSwiftTests.swift; sourceTree = "<group>"; };
+		4090086D1B64022F00CF8C0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		409008701B6408EA00CF8C0A /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		409008721B64090E00CF8C0A /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		40AE8F381B6A7FB400C884C6 /* Study.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Study.playground; sourceTree = "<group>"; };
+		40E20A0E1B67D3D00089D8AB /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		40E20A121B67D6CF0089D8AB /* SlackContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackContentViewController.swift; sourceTree = "<group>"; };
+		40E20A141B67D6CF0089D8AB /* SlackContentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackContentTableViewController.swift; sourceTree = "<group>"; };
+		40E20A191B67D7380089D8AB /* SlackContent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SlackContent.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4066E0671B647FBF00C0D434 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				4066E0681B647FBF00C0D434 /* Info.plist */,
+				4066E06E1B64811700C0D434 /* SlackApiUrl.plist */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		4066E06A1B64807600C0D434 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4066E06B1B64809800C0D434 /* SlackApi */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4066E06B1B64809800C0D434 /* SlackApi */ = {
+			isa = PBXGroup;
+			children = (
+				4066E06C1B6480D400C0D434 /* SlackApi.swift */,
+			);
+			path = SlackApi;
+			sourceTree = "<group>";
+		};
 		409008391B63F68800CF8C0A = {
 			isa = PBXGroup;
 			children = (
@@ -77,22 +117,13 @@
 		409008441B63F68800CF8C0A /* SlackRackSwift */ = {
 			isa = PBXGroup;
 			children = (
+				409008671B64014100CF8C0A /* Classes */,
 				409008471B63F68800CF8C0A /* AppDelegate.swift */,
-				409008491B63F68800CF8C0A /* ViewController.swift */,
-				4090084B1B63F68800CF8C0A /* Main.storyboard */,
 				4090084E1B63F68800CF8C0A /* Images.xcassets */,
 				409008501B63F68800CF8C0A /* LaunchScreen.xib */,
-				409008451B63F68800CF8C0A /* Supporting Files */,
+				4066E0671B647FBF00C0D434 /* SupportingFile */,
 			);
 			path = SlackRackSwift;
-			sourceTree = "<group>";
-		};
-		409008451B63F68800CF8C0A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				409008461B63F68800CF8C0A /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4090085A1B63F68800CF8C0A /* SlackRackSwiftTests */ = {
@@ -110,6 +141,110 @@
 				4090085C1B63F68800CF8C0A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409008671B64014100CF8C0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40E20A0D1B67D3AA0089D8AB /* Utility */,
+				4066E06A1B64807600C0D434 /* Model */,
+				409008681B64015E00CF8C0A /* Controller */,
+				409008691B64017100CF8C0A /* View */,
+				40AE8F371B6A7FA300C884C6 /* Study */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		409008681B64015E00CF8C0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4090086F1B64024F00CF8C0A /* Main */,
+				40E20A101B67D6CF0089D8AB /* Slack */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		409008691B64017100CF8C0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4090086C1B64022F00CF8C0A /* Main */,
+				40E20A171B67D7380089D8AB /* Slack */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4090086C1B64022F00CF8C0A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4090086D1B64022F00CF8C0A /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4090086F1B64024F00CF8C0A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				409008701B6408EA00CF8C0A /* MainTabBarController.swift */,
+				409008721B64090E00CF8C0A /* MainNavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		40AE8F371B6A7FA300C884C6 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				40AE8F381B6A7FB400C884C6 /* Study.playground */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		40E20A0D1B67D3AA0089D8AB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				40E20A0E1B67D3D00089D8AB /* Log.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		40E20A101B67D6CF0089D8AB /* Slack */ = {
+			isa = PBXGroup;
+			children = (
+				40E20A111B67D6CF0089D8AB /* SlackContent */,
+			);
+			path = Slack;
+			sourceTree = "<group>";
+		};
+		40E20A111B67D6CF0089D8AB /* SlackContent */ = {
+			isa = PBXGroup;
+			children = (
+				40E20A121B67D6CF0089D8AB /* SlackContentViewController.swift */,
+				40E20A131B67D6CF0089D8AB /* TableViewController */,
+			);
+			path = SlackContent;
+			sourceTree = "<group>";
+		};
+		40E20A131B67D6CF0089D8AB /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40E20A141B67D6CF0089D8AB /* SlackContentTableViewController.swift */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		40E20A171B67D7380089D8AB /* Slack */ = {
+			isa = PBXGroup;
+			children = (
+				40E20A181B67D7380089D8AB /* SlackContent */,
+			);
+			path = Slack;
+			sourceTree = "<group>";
+		};
+		40E20A181B67D7380089D8AB /* SlackContent */ = {
+			isa = PBXGroup;
+			children = (
+				40E20A191B67D7380089D8AB /* SlackContent.storyboard */,
+			);
+			path = SlackContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +291,8 @@
 		4090083A1B63F68800CF8C0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "五十嵐翔";
 				TargetAttributes = {
 					409008411B63F68800CF8C0A = {
@@ -192,8 +328,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4090084D1B63F68800CF8C0A /* Main.storyboard in Resources */,
+				40E20A1A1B67D7380089D8AB /* SlackContent.storyboard in Resources */,
+				4090086E1B64022F00CF8C0A /* Main.storyboard in Resources */,
 				409008521B63F68800CF8C0A /* LaunchScreen.xib in Resources */,
+				4066E06F1B64811700C0D434 /* SlackApiUrl.plist in Resources */,
 				4090084F1B63F68800CF8C0A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +350,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4090084A1B63F68800CF8C0A /* ViewController.swift in Sources */,
+				409008731B64090E00CF8C0A /* MainNavigationController.swift in Sources */,
+				40E20A161B67D6CF0089D8AB /* SlackContentTableViewController.swift in Sources */,
+				40E20A0F1B67D3D00089D8AB /* Log.swift in Sources */,
+				40E20A151B67D6CF0089D8AB /* SlackContentViewController.swift in Sources */,
+				4066E06D1B6480D400C0D434 /* SlackApi.swift in Sources */,
 				409008481B63F68800CF8C0A /* AppDelegate.swift in Sources */,
+				409008711B6408EA00CF8C0A /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4090084B1B63F68800CF8C0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4090084C1B63F68800CF8C0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		409008501B63F68800CF8C0A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,6 +411,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,8 +478,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SlackRackSwift/Info.plist;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/SupportingFile/SlackRackSwift-Prefix.pch";
+				INFOPLIST_FILE = SlackRackSwift/SupportingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "igara.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,8 +492,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SlackRackSwift/Info.plist;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/SupportingFile/SlackRackSwift-Prefix.pch";
+				INFOPLIST_FILE = SlackRackSwift/SupportingFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "igara.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -362,16 +505,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SlackRackSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "igara.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlackRackSwift.app/SlackRackSwift";
 			};
@@ -381,12 +522,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = SlackRackSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "igara.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlackRackSwift.app/SlackRackSwift";
 			};
@@ -411,6 +550,7 @@
 				409008631B63F68900CF8C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		409008641B63F68900CF8C0A /* Build configuration list for PBXNativeTarget "SlackRackSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +559,7 @@
 				409008661B63F68900CF8C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

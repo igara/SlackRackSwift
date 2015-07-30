@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   SlackApiUrl.plist
+   SlackRackSwift
+
+   Created by 五十嵐翔 on 2015/07/26.
+   Copyright (c) 2015年 五十嵐翔. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>slack_rack_channel_info</key>
+        <string>https://slackrack-igara.c9.io/slack/channelist/?channel=</string>
+        <key>slack_rack_channel_list</key>
+        <string>https://slackrack-igara.c9.io/slack/channelistjson/</string>
+    </dict>
+</plist>
