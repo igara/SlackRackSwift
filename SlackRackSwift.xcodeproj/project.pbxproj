@@ -33,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		404B9A6D1BA5665D000F6F54 /* MethodStudy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MethodStudy.playground; sourceTree = "<group>"; };
 		4066E0681B647FBF00C0D434 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4066E06C1B6480D400C0D434 /* SlackApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackApi.swift; sourceTree = "<group>"; };
 		4066E06E1B64811700C0D434 /* SlackApiUrl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SlackApiUrl.plist; sourceTree = "<group>"; };
@@ -194,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				40AE8F381B6A7FB400C884C6 /* DataTypeAndConditionalStudy.playground */,
+				404B9A6D1BA5665D000F6F54 /* MethodStudy.playground */,
 			);
 			path = Study;
 			sourceTree = "<group>";
