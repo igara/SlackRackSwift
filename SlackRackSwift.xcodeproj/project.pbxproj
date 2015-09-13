@@ -46,7 +46,7 @@
 		4090086D1B64022F00CF8C0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		409008701B6408EA00CF8C0A /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		409008721B64090E00CF8C0A /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		40AE8F381B6A7FB400C884C6 /* Study.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Study.playground; sourceTree = "<group>"; };
+		40AE8F381B6A7FB400C884C6 /* DataTypeAndConditionalStudy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DataTypeAndConditionalStudy.playground; sourceTree = "<group>"; };
 		40E20A0E1B67D3D00089D8AB /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		40E20A121B67D6CF0089D8AB /* SlackContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackContentViewController.swift; sourceTree = "<group>"; };
 		40E20A141B67D6CF0089D8AB /* SlackContentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackContentTableViewController.swift; sourceTree = "<group>"; };
@@ -193,7 +193,7 @@
 		40AE8F371B6A7FA300C884C6 /* Study */ = {
 			isa = PBXGroup;
 			children = (
-				40AE8F381B6A7FB400C884C6 /* Study.playground */,
+				40AE8F381B6A7FB400C884C6 /* DataTypeAndConditionalStudy.playground */,
 			);
 			path = Study;
 			sourceTree = "<group>";
