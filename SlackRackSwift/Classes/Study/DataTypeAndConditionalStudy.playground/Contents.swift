@@ -16,7 +16,7 @@ var exampleNumber = 0
  * @param Void
  * @return String(exampleNumber + 1) 問題の数のカウント数
  */
-func getExampleNumberCountText(Void) -> String{
+func getExampleNumberCountText(_: Void) -> String{
     exampleNumber += 1
     return "----------- ex." + String(exampleNumber) + " ----------- "
 }
