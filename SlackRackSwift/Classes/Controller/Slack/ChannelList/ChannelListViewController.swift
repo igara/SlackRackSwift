@@ -1,14 +1,14 @@
 //
-//  SlackContentTableViewController.swift
+//  ChannelListViewController.swift
 //  SlackRackSwift
 //
-//  Created by 五十嵐翔 on 2015/07/26.
+//  Created by 五十嵐翔 on 2015/10/03.
 //  Copyright © 2015年 五十嵐翔. All rights reserved.
 //
 
 import UIKit
 
-class SlackContentTableViewController: UITableViewController {
+class ChannelListViewController: UIViewController {
     // MARK: LifeCycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,10 +37,5 @@ class SlackContentTableViewController: UITableViewController {
     // MARK: MemoryManagement Method
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }
-
-    // MARK: UITableView Delegate Method
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-
     }
 }

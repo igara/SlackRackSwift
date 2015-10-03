@@ -16,6 +16,9 @@
 		4090086E1B64022F00CF8C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4090086D1B64022F00CF8C0A /* Main.storyboard */; };
 		409008711B6408EA00CF8C0A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409008701B6408EA00CF8C0A /* MainTabBarController.swift */; };
 		409008731B64090E00CF8C0A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409008721B64090E00CF8C0A /* MainNavigationController.swift */; };
+		40A78A841BBFA0B70049A582 /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A78A831BBFA0B70049A582 /* ChannelListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		40A78A871BBFA3F00049A582 /* ChannelList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A78A861BBFA3F00049A582 /* ChannelList.storyboard */; settings = {ASSET_TAGS = (); }; };
+		40A78A8A1BBFA7390049A582 /* ChannelListTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A78A891BBFA7390049A582 /* ChannelListTableViewContoller.swift */; settings = {ASSET_TAGS = (); }; };
 		40E20A0F1B67D3D00089D8AB /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A0E1B67D3D00089D8AB /* Log.swift */; };
 		40E20A151B67D6CF0089D8AB /* SlackContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A121B67D6CF0089D8AB /* SlackContentViewController.swift */; };
 		40E20A161B67D6CF0089D8AB /* SlackContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A141B67D6CF0089D8AB /* SlackContentTableViewController.swift */; };
@@ -46,6 +49,9 @@
 		4090086D1B64022F00CF8C0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		409008701B6408EA00CF8C0A /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		409008721B64090E00CF8C0A /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		40A78A831BBFA0B70049A582 /* ChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
+		40A78A861BBFA3F00049A582 /* ChannelList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChannelList.storyboard; sourceTree = "<group>"; };
+		40A78A891BBFA7390049A582 /* ChannelListTableViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListTableViewContoller.swift; sourceTree = "<group>"; };
 		40AE8F381B6A7FB400C884C6 /* Study.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Study.playground; sourceTree = "<group>"; };
 		40E20A0E1B67D3D00089D8AB /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		40E20A121B67D6CF0089D8AB /* SlackContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackContentViewController.swift; sourceTree = "<group>"; };
@@ -190,6 +196,31 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		40A78A821BBFA0620049A582 /* ChannelList */ = {
+			isa = PBXGroup;
+			children = (
+				40A78A831BBFA0B70049A582 /* ChannelListViewController.swift */,
+				40A78A881BBFA70E0049A582 /* TableViewController */,
+			);
+			path = ChannelList;
+			sourceTree = "<group>";
+		};
+		40A78A851BBFA3B80049A582 /* ChannelList */ = {
+			isa = PBXGroup;
+			children = (
+				40A78A861BBFA3F00049A582 /* ChannelList.storyboard */,
+			);
+			path = ChannelList;
+			sourceTree = "<group>";
+		};
+		40A78A881BBFA70E0049A582 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40A78A891BBFA7390049A582 /* ChannelListTableViewContoller.swift */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
 		40AE8F371B6A7FA300C884C6 /* Study */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				40E20A111B67D6CF0089D8AB /* SlackContent */,
+				40A78A821BBFA0620049A582 /* ChannelList */,
 			);
 			path = Slack;
 			sourceTree = "<group>";
@@ -235,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				40E20A181B67D7380089D8AB /* SlackContent */,
+				40A78A851BBFA3B80049A582 /* ChannelList */,
 			);
 			path = Slack;
 			sourceTree = "<group>";
@@ -328,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A78A871BBFA3F00049A582 /* ChannelList.storyboard in Resources */,
 				40E20A1A1B67D7380089D8AB /* SlackContent.storyboard in Resources */,
 				4090086E1B64022F00CF8C0A /* Main.storyboard in Resources */,
 				409008521B63F68800CF8C0A /* LaunchScreen.xib in Resources */,
@@ -356,7 +390,9 @@
 				40E20A151B67D6CF0089D8AB /* SlackContentViewController.swift in Sources */,
 				4066E06D1B6480D400C0D434 /* SlackApi.swift in Sources */,
 				409008481B63F68800CF8C0A /* AppDelegate.swift in Sources */,
+				40A78A841BBFA0B70049A582 /* ChannelListViewController.swift in Sources */,
 				409008711B6408EA00CF8C0A /* MainTabBarController.swift in Sources */,
+				40A78A8A1BBFA7390049A582 /* ChannelListTableViewContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
