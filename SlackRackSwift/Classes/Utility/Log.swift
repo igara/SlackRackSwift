@@ -93,7 +93,6 @@ class Log {
         if (!level.isEnable()) {
             return;
         }
-
-        print("[\(level.toString())][\(file.lastPathComponent)(L.\(line)) \(function)]: \(message)");
+        print("[\(level.toString())][\(file)(L.\(line)) \(function)]: \(message)");
     }
 }
