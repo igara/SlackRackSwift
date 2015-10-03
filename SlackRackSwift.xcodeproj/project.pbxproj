@@ -16,7 +16,6 @@
 		4090086E1B64022F00CF8C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4090086D1B64022F00CF8C0A /* Main.storyboard */; };
 		409008711B6408EA00CF8C0A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409008701B6408EA00CF8C0A /* MainTabBarController.swift */; };
 		409008731B64090E00CF8C0A /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409008721B64090E00CF8C0A /* MainNavigationController.swift */; };
-		40A78A811BBF9C4F0049A582 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 40A78A801BBF9C4F0049A582 /* README.md */; settings = {ASSET_TAGS = (); }; };
 		40E20A0F1B67D3D00089D8AB /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A0E1B67D3D00089D8AB /* Log.swift */; };
 		40E20A151B67D6CF0089D8AB /* SlackContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A121B67D6CF0089D8AB /* SlackContentViewController.swift */; };
 		40E20A161B67D6CF0089D8AB /* SlackContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E20A141B67D6CF0089D8AB /* SlackContentTableViewController.swift */; };
@@ -47,7 +46,6 @@
 		4090086D1B64022F00CF8C0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		409008701B6408EA00CF8C0A /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		409008721B64090E00CF8C0A /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		40A78A801BBF9C4F0049A582 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		40AE8F381B6A7FB400C884C6 /* Study.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Study.playground; sourceTree = "<group>"; };
 		40E20A0E1B67D3D00089D8AB /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		40E20A121B67D6CF0089D8AB /* SlackContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlackContentViewController.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				409008471B63F68800CF8C0A /* AppDelegate.swift */,
 				4090084E1B63F68800CF8C0A /* Images.xcassets */,
 				409008501B63F68800CF8C0A /* LaunchScreen.xib */,
-				40A78A801BBF9C4F0049A582 /* README.md */,
 				4066E0671B647FBF00C0D434 /* SupportingFile */,
 			);
 			path = SlackRackSwift;
@@ -359,7 +356,6 @@
 				40E20A151B67D6CF0089D8AB /* SlackContentViewController.swift in Sources */,
 				4066E06D1B6480D400C0D434 /* SlackApi.swift in Sources */,
 				409008481B63F68800CF8C0A /* AppDelegate.swift in Sources */,
-				40A78A811BBF9C4F0049A582 /* README.md in Sources */,
 				409008711B6408EA00CF8C0A /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
