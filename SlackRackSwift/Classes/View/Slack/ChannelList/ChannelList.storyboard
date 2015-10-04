@@ -27,25 +27,34 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kgh-gE-yJN">
                                 <rect key="frame" x="16" y="101" width="288" height="322"/>
                                 <connections>
-                                    <segue destination="kUD-VR-eJD" kind="embed" id="QLi-Z2-qc7"/>
+                                    <segue destination="kUD-VR-eJD" kind="embed" identifier="channelListTableView" id="QLi-Z2-qc7"/>
                                 </connections>
                             </containerView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Ntk-Iv-Shu">
+                                <rect key="frame" x="142" y="221" width="37" height="37"/>
+                                <color key="color" red="0.60083391460000002" green="1" blue="0.68068129040000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="kgh-gE-yJN" secondAttribute="leading" id="3FH-Hw-sgt"/>
+                            <constraint firstItem="Ntk-Iv-Shu" firstAttribute="centerX" secondItem="9Es-ci-imy" secondAttribute="centerX" id="BaI-Up-oLm"/>
                             <constraint firstAttribute="leadingMargin" secondItem="eHf-Gf-FEc" secondAttribute="leading" id="IRo-Xh-XcZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kgh-gE-yJN" secondAttribute="trailing" id="Igx-d5-bPA"/>
                             <constraint firstItem="aMc-5R-nlI" firstAttribute="top" secondItem="kgh-gE-yJN" secondAttribute="bottom" constant="8" id="JOH-xD-fpw"/>
                             <constraint firstItem="kgh-gE-yJN" firstAttribute="top" secondItem="eHf-Gf-FEc" secondAttribute="bottom" constant="8" id="M17-e4-Mo6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eHf-Gf-FEc" secondAttribute="trailing" constant="189" id="QJc-5s-Vmv"/>
                             <constraint firstItem="eHf-Gf-FEc" firstAttribute="top" secondItem="Cdl-Al-Fnq" secondAttribute="bottom" constant="8" id="Tkh-AJ-JdB"/>
+                            <constraint firstItem="Ntk-Iv-Shu" firstAttribute="centerY" secondItem="9Es-ci-imy" secondAttribute="centerY" id="bOt-bN-q7Z"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ChannelList" id="CKU-cQ-shH"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="indicator" destination="Ntk-Iv-Shu" id="Alw-EB-CMp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qp1-fz-EYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,6 +68,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="channelListTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="channelListTableViewCell" id="emz-1a-Qbs" customClass="ChannelListTableViewCell" customModule="SlackRackSwift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="emz-1a-Qbs" id="J3B-tR-0My">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdx-FY-DGF">
+                                            <rect key="frame" x="8" y="11" width="304" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Mdx-FY-DGF" secondAttribute="trailing" id="CAi-Og-q87"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Mdx-FY-DGF" secondAttribute="bottom" constant="3" id="Rzq-Ck-Tke"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="Mdx-FY-DGF" secondAttribute="leading" id="TTF-Ej-Rbw"/>
+                                        <constraint firstItem="Mdx-FY-DGF" firstAttribute="top" secondItem="J3B-tR-0My" secondAttribute="topMargin" constant="3" id="q64-Rt-D29"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="channelName" destination="Mdx-FY-DGF" id="K2K-PZ-LX8"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
                         <sections/>
                         <connections>
                             <outlet property="dataSource" destination="kUD-VR-eJD" id="XIE-iL-Gyb"/>

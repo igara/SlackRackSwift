@@ -48,11 +48,13 @@ class MainNavigationController: UINavigationController, UINavigationControllerDe
     }
 
     // MARK: UINavigationController Delegate Method
-    func navigationController(navigationController :                  UINavigationController,
-                              willShowViewController viewController : UIViewController,
-                              animated :                              Bool) {
+    func navigationController(navigationController : UINavigationController,
+        willShowViewController viewController : UIViewController,
+        animated : Bool) {
     }
 
-    func navigationController(navigationController : UINavigationController, didShowViewController viewController : UIViewController, animated : Bool) {
+    func navigationController(navigationController : UINavigationController,
+        didShowViewController viewController : UIViewController,
+        animated : Bool) {
     }
 }

@@ -106,7 +106,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="N0g-al-3Xg" kind="show" id="S6Y-Qk-unW"/>
+                                            <segue destination="N0g-al-3Xg" kind="show" id="0yx-GD-fdW"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
